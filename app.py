@@ -3,11 +3,10 @@ app = Flask(__name__)
 
 @app.route('/productos')
 def productos():
-    
 import mysql.connector
 
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="46.28.42.226",
   user="yourusername",
   password="yourpassword",
   database="mydatabase"
