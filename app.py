@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, make_respons, session
+gs zsfrom flask import Flask, render_template, request, jsonify, make_respons, session
 app = Flask(__name__)
 
 @app.route('/productos')
