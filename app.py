@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, jsonify, make_respons, session
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
+@app.route('/productos')
+def productos():
+    
 import mysql.connector
 
 mydb = mysql.connector.connect(
